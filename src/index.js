@@ -40,7 +40,7 @@ function showCountryInfo(country) {
         <ul class="country-list">
             <li><b>Capital:</b> ${capital}</li>
             <li><b>Population:</b> ${population}</li>
-            <li><b>Languages:</b> ${Object.values(languages)}</li>
+            <li><b>Languages:</b> ${Object.values(languages).join(', ')}</li>
         </ul>`
         })
         .join('')
